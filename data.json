@@ -1,0 +1,11 @@
+[
+    {
+        "amount": 12.5,
+        "category": "Food",
+        "note": "Coffee",
+        "date": "2025-12-21",
+        "payment_method": "Card",
+        "merchant": "Starbucks",
+        "location": "Jacksonville"
+    }
+]
