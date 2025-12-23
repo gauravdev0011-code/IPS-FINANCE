@@ -30,12 +30,18 @@ def set_budget(budget):
 
 def set_points(points_to_add):
     account= read_account()
-    account["points"] = points_to_add
+    account["points"] += points_to_add
     save_account(account)
     return account
             
 def subtract_from_balance(amount):
     account=read_account()
     account["balance"] -= amount
+    save_account(account)
+    return account
+
+def set_currency(currency):
+    account = read_account()
+    account["currency"] = currency
     save_account(account)
     return account

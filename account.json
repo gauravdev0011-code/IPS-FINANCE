@@ -1,6 +1,7 @@
 {
-    "balance": 487.5,
-    "budget": 200,
+    "balance": 0,
+    "budget": 0,
     "points": 0,
+    "currency": "",
     "initialized": false
 }
