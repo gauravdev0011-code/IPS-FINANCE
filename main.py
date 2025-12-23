@@ -1,11 +1,8 @@
-from storage import add_expense, read_expenses
-from analysis import get_total, get_count, get_category_totals
 
-add_expense(12.5, "Food", "Coffee", "2025-12-21", "Card", "Starbucks", "Jacksonville")
 
-expenses = read_expenses()
+from account import set_balance, set_budget, read_account, subtract_from_balance
 
-print("Count:", get_count(expenses))
-print("Total:", get_total(expenses))
-print("By category:", get_category_totals(expenses))
-
+set_balance(500)
+set_budget(200)
+subtract_from_balance(12.5)
+print(read_account())

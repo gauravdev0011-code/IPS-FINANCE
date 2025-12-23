@@ -46,16 +46,7 @@ def calculate_points(expenses, necessary_categories, unnecessary_categories, bud
 
 
 
-if __name__ == "__main__":
-    expenses = [
-        {"amount": 10, "category": "Food"},
-        {"amount": 20, "category": "Entertainment"},
-    ]
-    necessary = ["Food"]
-    unnecessary = ["Entertainment"]
-    points, reasons = calculate_points(expenses, necessary, unnecessary, budget=50)
-    print(points)
-    print(reasons)
+
 
 
 

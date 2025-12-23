@@ -31,4 +31,6 @@ def add_expense(amount, category, note, date, payment_method, merchant, location
 
     expenses.append(expense)
     save_expenses(expenses)
+
+    return expense
     
