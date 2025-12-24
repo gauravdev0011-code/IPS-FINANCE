@@ -22,16 +22,18 @@ basic feedback on financial behavior.
 ## Project Structure
 
 IPS_Finance/
-├── main.py        # Runs the program
-├── storage.py     # Saves and loads expenses
-├── analysis.py    # Spending calculations and insights
-├── rules.py       # Points and scoring logic
-├── prediction.py  # Spending prediction
-├── utils.py       # User input helpers
-├── account.py     # Account data (balance, budget, currency)
-├── data.json      # Stored expenses
-├── account.json   # Stored account information
+├── app.py            # Streamlit web app
+├── main.py           # Runs the CLI program
+├── storage.py        # Saves and loads expenses
+├── analysis.py       # Spending calculations and insights
+├── rules.py          # Points and scoring logic
+├── prediction.py     # Spending prediction
+├── utils.py          # User input helpers
+├── account.py        # Account data (balance, budget, currency)
+├── data.json         # Stored expenses
+├── account.json      # Stored account information
 └── README.md
+
 
 
 ## How to Run
@@ -47,8 +49,15 @@ python main.py
 
 ## Why I Built This
 
-Most beginner projects only store data.
-I wanted to build something that also analyzes the data and gives feedback.
+I wanted to actually see how Python code works, how JSON files are loaded and updated, and how a normal Python program can be turned into a website.
 
 This project helped me practice clean code structure, separating logic into
 different files, and thinking about how real applications are designed.
+
+
+## Live Demo (Web App)
+
+I also created a simple web version of this project using Streamlit.
+
+Live app: https://smartspend-dev.streamlit.app/
+
