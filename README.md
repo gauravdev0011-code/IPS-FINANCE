@@ -20,7 +20,7 @@ basic feedback on financial behavior.
 
 
 ## Project Structure
-
+```
 IPS_Finance/
 ├── app.py            # Streamlit web app
 ├── main.py           # Runs the CLI program
@@ -33,7 +33,7 @@ IPS_Finance/
 ├── data.json         # Stored expenses
 ├── account.json      # Stored account information
 └── README.md
-
+```
 
 
 ## How to Run
