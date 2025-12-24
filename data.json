@@ -1,11 +1,1 @@
-[
-    {
-        "amount": 10.0,
-        "category": "Food",
-        "note": ".",
-        "date": "2025-01-20",
-        "payment_method": "Cash",
-        "merchant": "Walmart",
-        "location": ""
-    }
-]
+[]
